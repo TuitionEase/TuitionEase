@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Overpass&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Overpass&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Overpass&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Shippori+Mincho+B1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+    overflow-x: hidden;
+}
+
+
+li, a, button{
+    font-family:"Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-item{
+    margin-top:-10px;
+}
+.navbar-nav .nav-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px; 
+}
+
+.navbar-custom {
+    background-color: #d8f7fd;
+    height: 130px; 
+}
+
+.navbar-nav .nav-link {
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+}
+
+.navbar-nav .nav-link:hover {
+    transform: translateY(-3px); 
+}
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #007bff; /* Change to the desired color */
+  border-bottom: none; /* Remove any existing border */
+}
+
+.loginbut{
+    margin-bottom: 30px;
+}
+
+.logoutbut{
+  margin-bottom: 30px;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #06B3EA;
+    border:none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all .3s ease 0s;
+    color:white;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+button:hover{
+    background-color: rgb(15, 135, 241);
+    color: rgb(255, 255, 255);
+}
+
+
+.box{
+    background-color: #9feaf9;
+    height: 220px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    
+}
+.box img{
+    height: 210px;
+    width: 230px;
+    margin-left: 400px;
+    margin-top: 0px;
+}
+
+
+  .left {
+    flex: 1;
+    padding-right: 0px;
+  }
+
+  .right {
+    flex: 1;
+    padding-left: 0px;
+    padding-right: 150px;
+  }
+
+  .head {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    padding-left: 140px;
+    margin-top: -10px;
+    margin-left: 70px;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .right p{
+    margin-top: 8px;
+  }
+
+  .stu1{
+
+    padding-left: 40px;
+  }
+  .stu2{
+ 
+    padding-left: 190px;
+  }
+  .cards-wrapper{
+    display: flex;
+    margin-left: 220px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .card{
+    /* margin: 0 .5em; */
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  }
+  .img-wrapper{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D1EFF9;
+}
+.img-wrapper img{
+    max-width: 50%;
+    max-height: 100%;
+}
+.card-title{
+    text-align: center;
+    
+}
+.card h6{
+    margin-bottom: 50px;
+}
+.card-text{
+    margin-top: -20px;
+    text-align: center;
+  }
+
+
+@media (max-width: 500px){
+    .container #prev{
+        left: 0px;
+        top: 60%;
+    }
+
+    .container #next{
+        right: 0px;
+        top:60%;
+    }
+}
+
+.servicehead{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.servicep{
+    font-family: "Shippori Mincho B1", serif;
+    font-weight: 500;
+}
+
+.stucard{
+  margin-left:-200px;
+}
+
+.stubtn{
+  margin-left:70px;
+}
+
+.addstu{
+  margin-left:500px;
+}
+.custom-margin {
+  margin-top: 30px; /* Adjust the value as needed */
+}
+.containerform {
+  max-width: 600px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-group input[type="file"] {
+  width: calc(100% - 120px); /* Adjust width as needed */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-group .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.form-group .btn:hover {
+  background-color: #45a049;
+}
+
+/* Responsive layout - make the form columns stack on top of each other instead of side by side */
+@media screen and (max-width: 600px) {
+  .form-group input[type="file"] {
+      width: 100%;
+  }
+}

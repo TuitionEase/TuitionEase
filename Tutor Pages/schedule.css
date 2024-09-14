@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Overpass&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+li, a, button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-item{
+    margin-top:-10px;
+}
+
+.navbar-nav .nav-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px; 
+}
+
+.navbar-custom {
+    background-color: #d8f7fd;
+    height: 130px; 
+}
+
+.navbar-nav .nav-link {
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+}
+
+.navbar-nav .nav-link:hover {
+    transform: translateY(-3px); 
+}
+
+.loginbut, .logoutbut {
+    margin-bottom: 30px;
+}
+
+.row {
+    align-items: center;
+}
+
+.welbanner {
+    background-color: #9feaf9;
+    font-size: 20px;
+}
+
+.welhead {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+}
+
+.welp {
+    font-size: 16px;
+}
+
+.welimg {
+    width: 170px;
+    margin-left: 100px;
+}
+
+.timehead {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+
+.timep {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.edu-container .edu-contents1 {
+    margin-left: 50px;
+    padding: 0px 30px;
+    border-left: 2px solid rgb(0, 0, 0);
+}
+
+.edu-container .edu-head {
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+
+.edu-container .edu-contents1 .box {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+    width: 86%;
+    height: 200px;
+}
+
+.edu-container .edu-contents1 .box:hover {
+    box-shadow: 0px 3px 12px 0px #5f80ed;
+    border: 1px solid transparent;
+}
+
+.edu-container .edu-contents1 .box::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 23px);
+    top: 0;
+    background-color: rgb(15, 135, 241);
+    border: 2px solid white;
+}
+
+.box .time {
+    position: relative;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.box .name {
+    font-size: 19px;
+}
+
+.box p {
+    font-size: 17px;
+}
+
+.box4 .timep2 {
+    margin-bottom: -30px;
+}
+
+.schedimg {
+    width: 800px;
+}
+
+.scroll-pane {
+    height: 600px; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+    border: 1px solid #ccc; /* Optional: Add border for visual indication */
+    padding: 10px; /* Optional: Add padding for inner content */
+}
+
+.timedate {
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    font-family: "Shippori Mincho B1", serif;
+}
+
+.adddate1 {
+    margin-bottom: 10px;
+    border-radius: 3%;
+}
+
+.addBox1 {
+    margin-bottom: 20px;
+}
