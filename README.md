@@ -1,4 +1,5 @@
-[![Logo.png](https://i.postimg.cc/52h7FCT4/Untitled-design.png)](https://postimg.cc/yDTXMk7t)
+<img src="https://github.com/TuitionEase/TuitionEase-Project/blob/main/readme%20graphics/Banner.png" alt="Banner" style="width:100%;">
+
 # TuitionEase
 
  TuitionEase is a comprehensive solution for effective tuition administration. It is a platform designed to simplify and empower tutors in managing their tutoring businesses and to resolve scheduling conflicts. It streamlines tasks such as scheduling
