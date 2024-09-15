@@ -25,10 +25,6 @@
 **Backend:** PHP, MySQL
 
 
-## Demo
-
-Insert gif or link to demo
-
 
 ## Run Locally
 
