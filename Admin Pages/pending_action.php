@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $mail->Host = 'smtp.gmail.com';
                 $mail->SMTPAuth = true;
                 $mail->Username = 'tuitioneaseweb@gmail.com';
-                $mail->Password = 'tpdcekiellfmusph';
+                $mail->Password = /Add your password here/;
                 $mail->SMTPSecure = 'ssl';
                 $mail->Port = 465;
                 $mail->setFrom('tuitioneaseweb@gmail.com');
